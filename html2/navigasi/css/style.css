@@ -1,0 +1,34 @@
+.menu{
+    display:inline-block;
+    width: 400px;
+    height: 20px;
+    background-color: rgb(233, 183, 147);
+    padding: 9px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+.menu:hover{
+    background-color: aquamarine;
+    background-size: cover;
+    padding: 10px;
+}
+.gambar{
+    background-image: url(../image/Roger-ML.jpg);
+    background-size: cover;
+    padding: 10px;
+    width: 1240px;
+    height: 1000px;
+    color: #fff;
+    margin: 2px;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.gambar:hover{
+    background-image: url(../image/roger2.jpg);
+    background-size: cover;
+    color: #fff;
+}

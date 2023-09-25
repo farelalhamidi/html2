@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        width: 100%;
+      }
+      .container {
+        width: 100%;
+       margin-right:30px;
+       margin-top: 10px;
+      }
+      .header {
+        display: grid;
+        grid-template-columns: 6.25% 6.25% 6%.25 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
+        grid-template-rows: 60px;
+        grid-template-areas: "satu dua tiga empat lima enam tujuh lapan sembilan sepuluh sebelas duabelas tigabelas empatbelas limabelas enambelas";
+        text-align: center;
+        gap: 5px;
+        padding-bottom: 10px;
+      }
+
+      .satu,
+      .dua,
+      .tiga,
+      .empat,
+      .lima,
+      .enam,
+      .tujuh,
+      .lapan,
+      .sembilan,
+      .sepuluh,
+      .sebelas,
+      .duabelas,
+      .tigabelas,
+      .empatbelas,
+      .limabelas,
+      .enambelas {
+        padding: 7px;
+        grid-area: satu dua tiga empat lima enam tujuh lapan sembilan sepuluh;
+        background-color: bisque;
+      }
+      .nav {
+        display: grid;
+        grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+        grid-template-rows: 70px;
+        grid-template-areas: "a b c d e f";
+        text-align: center;
+        gap: 3px;
+        padding-bottom: 10px;
+      }
+      .a,
+      .b,
+      .c,
+      .d,
+      .e,
+      .f {
+      padding: 25px;
+        grid-area: a b c d e f;
+        background-color: bisque;
+      }
+      .conten {
+        display: grid;
+        grid-template-columns:25% 25% 25% 25% ;
+        grid-template-rows: 80px;
+        grid-template-areas: "g h i j";
+        text-align: center;
+        gap: 5px;
+        padding-bottom: 10px;
+      }
+      .g,
+      .h,
+      .i,
+      .j {
+       padding: 30px;
+        grid-area: g h i j;
+        background-color: bisque;
+      }
+      .contensid{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 80px;
+        grid-template-areas: "k l";
+        gap: 5px;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+      .k,.l{
+        padding: 30px;
+        grid-area:k l;
+        background-color: bisque;
+      }
+      .footer{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 90px;
+        grid-template-areas: "m";
+        gap: 5px;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+      .m{
+        padding: 35px;
+        grid-area: m;
+        background-color: bisque;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="satu">1</div>
+        <div class="dua">1</div>
+        <div class="tiga">1</div>
+        <div class="empat">1</div>
+        <div class="lima">1</div>
+        <div class="enam">1</div>
+        <div class="tujuh">1</div>
+        <div class="lapan">1</div>
+        <div class="sembilan">1</div>
+        <div class="sepuluh">1</div>
+        <div class="sebelas">1</div>
+        <div class="duabelas">1</div>
+        <div class="tigabelas">1</div>
+        <div class="empatbelas">1</div>
+        <div class="limabelas">1</div>
+        <div class="enambelas">1</div>
+      </div>
+      <div class="nav">
+        <div class="a">2</div>
+        <div class="b">2</div>
+        <div class="c">2</div>
+        <div class="d">2</div>
+        <div class="e">2</div>
+        <div class="f">2</div>
+      </div>
+      <div class="conten">
+        <div class="g">3</div>
+        <div class="h">3</div>
+        <div class="i">3</div>
+        <div class="j">3</div>
+      </div>
+    <div class="contensid">
+      <div class="k">3</div>
+      <div class="l">9</div>
+    </div>
+    <div class="footer">
+      <div class="m">9</div>
+    </div>
+    </div>
+  </body>
+</html>
